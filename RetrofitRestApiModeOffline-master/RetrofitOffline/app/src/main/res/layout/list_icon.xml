@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/rowId">
+
+
+    <ImageView
+        android:id="@+id/image_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        app:srcCompat="@drawable/ic_menu_camera" />
+
+    <TextView
+        android:id="@+id/txt_event_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iconLetterView"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="8dp"
+        android:text=" Text Title"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txt_event_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iconLetterView"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="8dp"
+        android:text=" Text Title"
+        android:textSize="16sp" />
+</LinearLayout>
